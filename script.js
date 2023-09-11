@@ -2,7 +2,8 @@ let a = 5;
 let b = 19;
 
 const sum = () => {
-  return console.log(a + b);
+  return a + b;
 };
 
-console.log(`The Sum is  ${sum()}`);
+const Sum = sum();
+console.log(`The Sum is  ${Sum}`);
