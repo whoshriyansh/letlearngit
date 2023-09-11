@@ -5,4 +5,4 @@ const sum = () => {
   return console.log(a + b);
 };
 
-sum();
+console.log(`The Sum is  ${sum()}`);
